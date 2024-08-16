@@ -1,0 +1,34 @@
+@mixin display-flex{
+    display: flex;
+    justify-content: center;
+  }
+  @mixin display-flex-center{
+    display: flex;
+    align-items: center;
+  }
+  @mixin display-grid{
+    display: grid;
+    justify-content: center;
+  }
+  @mixin display-grid-center{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
+  @mixin font-montserrat-400 {
+    font-family: Montserrat;
+    font-weight: 400;
+}
+@mixin font-montserrat-700 {
+  font-family: Montserrat;
+  font-weight: 700;
+}
+@mixin font-lato-400 {
+  font-family: Lato;
+  font-weight: 400;
+}
+
+@mixin font-lato-700 {
+  font-family: Lato;
+  font-weight: 700;
+}
